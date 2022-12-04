@@ -54,7 +54,6 @@ fun main() {
         "Y" to 51,
         "Z" to 52)
 
-    // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day03")
 
     val part1 = testInput

@@ -30,21 +30,6 @@ fun getPoints(pair: Pair<RPC, RPC>): Int {
 
 fun main() {
 
-    /*
-    A   ROCK
-    B   PAPER
-    C   SCISSORS
-
-    X   Rock        1
-    Y   Paper       2
-    Z   Scissors    3
-
-    loose=0
-    draw=3
-    win=6
-
-     */
-    // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day02")
 
     val part1 = testInput
@@ -53,7 +38,6 @@ fun main() {
         .sumOf { getPoints(it) + it.second.points }
 
 
-    //Part 1
     println(part1)
 
 
@@ -79,6 +63,5 @@ fun main() {
         }
         .sum()
 
-    //Part 2
     println(part2)
 }

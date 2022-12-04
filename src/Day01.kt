@@ -1,5 +1,4 @@
 fun main() {
-    // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day01")
     val list = buildList {
         var list = mutableListOf<Int>()
